@@ -1,0 +1,25 @@
+Los procesos en Java son independientes.
+Cada proceso tiene su propio espacio de memoria.
+Los hilos comparten el espacio de memoria del proceso.
+Java soporta multihilos nativamente.
+La clase Thread gestiona los hilos en Java.
+Runnable es una interfaz funcional.
+El método run() define la tarea del hilo.
+Se usa start() para iniciar un hilo.
+Los hilos pueden sincronizarse con synchronized.
+Los procesos en Java pueden ejecutarse en paralelo.
+Los hilos pueden ser de usuario o daemon.
+Un hilo daemon se ejecuta en segundo plano.
+`join()` espera a que un hilo termine.
+`yield()` sugiere al planificador ceder el control.
+Los hilos pueden interrumpirse con `interrupt()`.
+La concurrencia se maneja con bloques `synchronized`.
+`wait()` detiene un hilo hasta que se notifique.
+`notify()` y `notifyAll()` reactivan hilos en espera.
+Los hilos pueden usar variables volátiles.
+Java ofrece la clase `Executor` para gestionar hilos.
+`ThreadPoolExecutor` maneja un grupo de hilos.
+Un `Callable` devuelve un resultado al finalizar.
+Los hilos tienen prioridades, de 1 a 10.
+La prioridad no garantiza el orden de ejecución.
+El bloqueo de hilos puede causar `deadlock`.
